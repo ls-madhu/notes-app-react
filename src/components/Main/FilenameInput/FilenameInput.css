@@ -1,0 +1,19 @@
+.filename-input {
+  width: 100%;
+  background-color: #e5e5e5;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.filename-input input {
+  width: 90%;
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  font-size: 24px;
+  font-weight: 700;
+  outline: none;
+}

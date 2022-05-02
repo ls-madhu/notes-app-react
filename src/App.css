@@ -1,0 +1,90 @@
+.App {
+  display: flex;
+  height: 100vh;
+  flex: 1;
+}
+
+.no-active-note {
+  width: 100%;
+  height: calc(100vh - 39px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #999;
+}
+
+.dark .no-active-note {
+  background-color: #333;
+  color: #ccc;
+}
+
+.dark .sidebar {
+  background-color: #242424;
+  border-right: 1px solid #141414;
+}
+
+.dark .sidebar-header {
+  border-bottom: 1px solid #141414;
+}
+
+.dark .sidebar-note {
+  color: #aaa;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.dark .sidebar-note__top {
+  color: #b7b7b7;
+}
+
+.dark .sidebar-note:hover {
+  background-color: #333;
+}
+
+.dark .sidebar-note.active {
+  background-color: #6b76f3;
+  color: #fff;
+}
+
+.dark .active .sidebar-note__top,
+.dark .active .sidebar-note__top button {
+  color: #fff;
+}
+
+.dark.sidebar-toggle {
+  background-color: #242424;
+  border: 1px solid #141414;
+  border-left: none;
+}
+
+.dark .filename-input {
+  color: #c9d1d9;
+  background-color: #242424;
+  border-bottom: 1px solid #141414;
+}
+
+.dark .editor textarea {
+  color: #c9d1d9;
+  background-color: #333;
+}
+
+.dark .preview {
+  color: #c9d1d9;
+  background-color: #333;
+}
+
+.dark .toolbar {
+  color: #c9d1d9;
+  background-color: #242424;
+  border-top: 1px solid #141414;
+}
+
+.dark *::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+@media screen and (max-width: 768px) {
+  .no-active-note {
+    font-size: 1.5rem;
+  }
+}

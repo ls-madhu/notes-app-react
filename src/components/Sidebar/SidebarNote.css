@@ -1,0 +1,41 @@
+.sidebar-note {
+  padding: 15px 8px;
+  color: #555;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.sidebar-note:hover {
+  background-color: #ccc;
+}
+
+.sidebar-note.active {
+  background-color: #6b76f3;
+  color: #fff;
+}
+
+.active .sidebar-note__top,
+.active .sidebar-note__top button {
+  color: #fff;
+}
+
+.sidebar-note__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.sidebar-note__top button {
+  color: #6b76f3;
+  font-weight: 700;
+  padding: 2px 5px;
+  border-radius: 9px;
+}
+
+.note-modified {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

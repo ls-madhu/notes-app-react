@@ -1,0 +1,18 @@
+.toolbar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 24px;
+  background-color: #e5e5e5;
+  padding: 5px 10px;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.editor-icons,
+.global-icons {
+  display: flex;
+  align-items: center;
+}
