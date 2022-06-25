@@ -5,7 +5,7 @@ We can Add, Edit, Delete, Preview and Donwload (in markdown format) notes.
 
 ## Demo
 
-Here is the live website: [Crypto Tracker](https://mcryptotracker.netlify.app/).
+Here is the live website: [Todo App](https://ls-madhu.github.io/notes-app-react/).
 
 ## Technologies
 
